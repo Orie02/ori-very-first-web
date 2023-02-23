@@ -3,17 +3,62 @@
 body{ 
     background-color: #fff;
     font-family: "neue-haas-unica", sans-serif;
+    margin: 0;
 }
 
 h1{ 
     font-family: "neue-haas-unica", sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 60px;
     color: #000;
 }
 p{  
     font-family: "neue-haas-unica", sans-serif;
     font-weight: 300;
-    font-style: normal;
+    font-style: 16px;
     color: #000;
+}
+a{
+    color: #6214DE;
+    text-decoration-line: none;
+}
+li{
+    font-weight: 300;
+    font-style: 16px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border-bottom: #000 solid 0.7px;
+}
+.logo{
+    color: #000;
+    font-family: "neue-haas-unica", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding:10px 24px;
+    align-items: center;
+    justify-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0;
+    margin: 0 20px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+nav a{
+    color: #000;
+    font-size: 12px;
+    padding: 0 24px;
+}
+.active{
+    color: #6214DE;
+}
+#main{
+    margin: 0 40px;
 }
